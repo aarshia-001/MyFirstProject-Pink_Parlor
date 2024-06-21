@@ -1,0 +1,112 @@
+body.a {
+    
+    background-image: linear-gradient(rgb(255, 221, 241),  rgb(255, 163, 227), rgb(241, 77, 192));
+
+}
+
+a:link {
+    text-decoration: none;
+    color: rgba(129, 0, 149, 0.615);
+}
+  
+a:visited {
+    text-decoration: none;
+    color: rgba(129, 0, 149, 0.615);;
+}
+
+.header {
+    margin-left:20px;
+    font-size: 30px;
+    display: flexbox;
+    justify-content: left;
+
+
+}
+.DreamP {
+    opacity:0.7;
+    height:280px;
+    text-align: center;
+    border-radius: 40px;
+    background-image: url("dreamp_bg.jpg");
+    opacity: 0.7;
+    color: rgb(255, 255, 255);
+    background-size: cover;
+
+    padding:45px 0px 45px 0px;
+}
+.content {
+    margin: 10px 40px;
+    
+
+    
+}
+.btn {
+    opacity:0.6;
+    border: none;
+    border-radius: 10px;
+    color: rgb(36, 0, 42);
+    background:rgb(255, 194, 230);
+    font-size: 20px;
+    padding: 8px 15px;
+
+}
+.btn:hover {
+    opacity:1;
+    font-size: 20px;
+}
+
+.Headh {
+    text-align: center;
+    font-size: 72px;
+    text-align: center;
+    text-shadow: -5px 5px 5px #00000047;
+}
+
+.Headh2{
+    
+    margin-top:100px;
+    font-size: 72px;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 5px 5px #fefefe48;
+    color: none;
+
+}
+
+.Pinkwash {
+    opacity:0.7;
+    height:290ppx;
+    margin-top: 40px;
+    text-align: center;
+    border-radius: 40px;
+    border: 2px solid rgba(0, 0, 0, 0.726);
+    background-image: linear-gradient( rgb(255, 19, 184), rgb(177, 0, 124));
+}
+
+.Start {
+    text-align: center;
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: rgba(255, 212, 252, 0.312);
+    border-radius: 30px;
+    border-color: rgba(93, 0, 76, 0.507);
+    color:  rgba(93, 0, 76, 0.507);
+    margin-bottom: 50px;
+}
+
+.Pinkwash:hover{
+    opacity:1;
+
+}
+
+
+.DreamP:hover{
+    opacity:1;
+
+}
+.Start:hover{
+    font-size: 25px;
+    background-color: rgba(255, 212, 252, 0.701);
+    color:  rgba(93, 0, 76, 0.755);
+
+}

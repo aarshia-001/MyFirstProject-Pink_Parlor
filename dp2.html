@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="style_game.css" rel="stylesheet">
+    
+   <title>The Pink Parlour</title>
+
+</head>
+
+
+
+<body style="background-color:   rgb(255, 163, 227);">
+    <div id="header">
+        <button class="btn" ><a href="home.html" >HOME </a></button>
+        <button class="btn"> <a href="index.html" >STORIES</a> </button>
+    </div>
+    <div class= "screenofgame">
+        <div id="0" class= "Canv">
+            You are the secret spy from the rebellion group in the kingdom of Pinkville, your aim is to get access to the secret weapon the queen has been hiding and get out safely. <br>
+            <br>
+            You dress as X, a noble. It is a winter night, so you put on a lot of noble clothes over your code dress (which bore the resistence symbol- the Bass Cleff) <br>
+            With the help of your fellow rebels, you reach the royal palace.
+            The Queen awaits you.
+            <br>
+            <img src="city.jpg" alt="pink city drowned in mist" class="imgs">
+            <br>
+            <button id="Next0" class="nextbt">Continue</button>
+        </div>
+
+
+
+
+    <div id="1a" class= "Canv">
+        The Queen is a scary woman with buttons for eyes. Looking at her, you are momentarilly speechless, then you compose yourself and greet her.<br> <br>
+        <img src="queen.png" class="imgs">
+        <br>
+        <strong>"Greetings your majesty!"</strong> <br>
+        <br>
+        <strong>"Good to see you, X,  u sure are quite sweaty today"</strong>
+        <br>
+        This catches you off guard. Come up with a cover. <br>
+
+        <br>
+        Make sure to be Quick !
+        <br>
+        <br>
+        Any hesitation will not be unnoticed by the Queen.
+        <br>
+        <br>
+
+        <button class="option" onclick="resp1a=-1;"> Yeah, it is quite hot</button> <br>
+        <button class="option" onclick="resp1a=1;">*flirtingly * It's just your amazing presence, my queen</button>
+        <br>
+        <button id="Next1" class="nextbt">Next</button>
+    </div>
+
+    <div id="1ai" class= "Canv">
+        Despite your random reply, the Queen passes you a suggestive smile. <br> <br>
+        <img src="corridor.png" alt="pink haired ballerina with cupcakes" class="imgs">
+
+        <br>
+        An unsettling realisation hits you<br> <br>
+        <strong> THE QUEEN HAD AN AFFAIR WITH X</strong>        
+        <br>
+        And currently, you are X.
+        <br>
+        <button id="Next1ai" class="nextbt">Next</button>
+    </div>
+
+
+    <div id="2a" class= "Canv">
+        While walking through the endless corridor, time seemed to stand still as you awkwardly follow the queen. Her poker face is unreadable, which makes it hard for you to predict her thoughts.
+        <br>
+        <br>
+        A portrait hanging from the wall catches your attention. You are mesmerised by the beauty of the pink-haired woman in it holding cupcakes.
+        <br>
+        <br>
+        However she seems somewhat vaguely familiar. Where could you have seen such a beauty outside the palace walls? <br> <br>
+        Your curiousity about you is eating you inside.<br> Should you ask about it? <br> <br>
+
+        <img src="portrait.png" alt="pink haired ballerina with cupcakes" class="imgs">
+        <br>
+        <button class="option" onclick="resp2a=1;"> Yes</button> <br> <!--It all depends on this variable that takes 0 or 1, if 0, 2b next, else 3-->
+        <button class="option" onclick="resp2a=0;">No</button><br>
+        <button id="Next2" class="nextbt">Next</button>
+    </div>
+
+
+    <!--Information of 2a-->
+
+
+    <div id="2ai" class= "Canv">
+        <strong>"She's my sister, Aerisianne. She was a ballerina. She's no more now"</strong>
+        <br>
+        <br>
+        You couldn't help yourself comparing the two sisters based on the appearance. Both resembled movie stars, though, one stared in glamour and other in horror.
+        
+        <br> You become more curious about this Godess. Should you take the risk and ask it? <br>
+        <br>
+        <i>Remember, the more questions you ask, more cautious the Queen will become of you.</i>
+        <br><br>
+        <button id="Next2ai" class="nextbt">Next</button>
+    </div>
+
+    <div id="2b" class= "Canv">
+        Inquire further<br>
+
+        <button class="option" onclick="resp2b=1;"> Yes</button> <br> <!--It all depends on this variable that takes 0 or 1, if 0, 2b next, else 3-->
+        <button class="option" onclick="resp2b=0;">No</button><br>
+        <button id="Next2b" class="nextbt">Next</button>
+    </div>
+
+    <!--Information of 2b-->
+
+    <div id="2bi" class= "Canv">
+        <strong>"Oh, I'm really sad to hear that, but how did she die?" </strong>
+        <br>
+        <br>
+
+        There's a glint in the Queen's eyes, as she answers,<br>
+        <br> 
+        <strong>"Having affair with a commoner." </strong>
+        <br>
+        <br>
+        Something clicks in your head. A distant memory surfaces, a bittersweet rush of nostalgia.
+        <br>
+        The matter is closer to home than you had initially thought.<br> However, you keep it in.
+        <br>
+        <br>
+        <button id="Next2bi" class="nextbt">Next</button>
+    </div>
+
+
+    <div id="3a" class= "Canv">
+        You are led by the Queen to the grand dining hall. Where there are three dishes served.<br>
+        <img class= "imgs" src="dining hall.png" alt="a grand pink hall">
+        <br>
+        <strong>"I'm filled, your majesty"</strong> <br>you say. Hoping to avoid the dishes.
+        <br>
+        <strong>"You know, its rude to reject the Queen."</strong> <br>she insisted. <br> <br>
+        So, finally you relented. Being suspicious of the mysterious queen's intent, you are still unsure whether she wants you dead.
+        <br>
+        Your intuition warns you only one of these sweet dishes may be safe to eat. <br>
+        
+        With the Queen's sharp gaze on you, What will you choose?
+        <br>
+        <br>
+
+        <button class="option" onclick="resp3a=0;">Chocolate </button> <br> <!--It all depends on this variable that takes 0 or 1, if 0, 2b next, else 3-->
+        <button class="option" onclick="resp3a=-1;"> Jelly Beans</button><br>
+        <button class="option" onclick="resp3a=1;"> Cupcake</button><br>
+        <button id="Next3a" class="nextbt">Next</button>
+    </div>
+
+    <div id="3b" class= "Canv">
+        You have died from poisoning... 
+        <br><br>
+        <strong> Do you wish to Play again? </strong><br>
+        <button class="btn" > <a href="dp2.html">Yes</a></button> <!--It all depends on this variable that takes 0 or 1, if 0, 2b next, else 3-->
+        <button class="btn" onclick="alert('Thanks for playing');"><a href="index.html">No</a></button><br>
+    </div>
+
+    <div id="4i" class= "Canv">
+       <strong> [You have been placed under the curse of Pink Haired Ballerina]<br></strong>
+        <button id="Next4i" class="nextbt">Next</button>
+    </div>
+
+    <div id="4inc" class= "Canv">
+        You swallow the whole thing down.
+        <br><br>
+        You almost gag at the excessive sweetness.
+        <br><br>
+        It was almost poisonous at this point.
+        <br><br>
+        Hovewer, you play it calm.
+        <br><br>
+        Now, the Queen passed you an amused gaze.
+        <br><br>
+        You felt your anger boil against her very existence.
+        <br><br>
+        For a second, you had the wildest thought of murdering her on the spot.
+        <br><br>
+        However, you restrain as she places the plan document in front of you.
+        <br><br>
+        It was her plan. Looks like she trusted you completely. You smile victoriusly inside
+        <br><br>
+        <button id="Next4inc" class="nextbt">Next</button>
+    </div>
+
+    <div id="4ii" class= "Canv">
+        <h1>INFORMATION: </h1>
+
+        <i>Using the essence of the Pink Haired ballerina, we plan to install Dream Parlours all over the city.
+        <br> <br>
+        To not only control their actions, but also their minds.</i>
+        <br><br>
+        <br><br>
+        Sweat trickled down your forehead at the plan.
+        <br><br>
+        You ask the queen the permission to take the leave.
+        <br><br>
+
+        <button id="Next4ii" class="nextbt">Next</button>
+    </div>
+
+    
+    <div id="5Aarc" class= "Canv">
+        
+        Smiling at you, the Queen relents.
+        <br><br>
+        You feel shivers run down your spine as you exit the hall.
+        <br>
+        <br>
+         You are free, away from the creepy Queen.
+        <br>
+        <br>
+
+        <h1><strong>MISSION SUCCESSFUL! </strong> </h1>
+        <br>
+        <button class="btn" onclick="alert('Thanks for playing');" class="nextbt"><a href="index.html">HOME</a></button><br>
+    </div>
+
+    <div id="5Barc" class= "Canv">
+        <strong>"Not so soon, little spy"</strong>
+        <br> <br>
+        The Queen order guards to send you to a dark room.
+        <br>
+        <button id="Next5Barc" class="nextbt">Next</button>
+    </div>
+
+    <div id="5Barc1" class= "Canv">
+        You hear a music box play in the room. <br>
+        <img class="imgs" src="musicbox.png" alt="a pink music box"> <br>
+        You encounter a pink haired animatronic, who bears an eerie resemblance to the portrait in the hall
+        <br>
+        <br>
+        <button id="Next5Barc1" class="nextbt">Next</button>
+    </div>
+
+    <div id="5Barc2a" class= "Canv">
+        <strong>"Greetings, young Noble!"</strong> <br> <br>
+
+        [YOUR CURSE ACTIVATES] <br><br>
+        <!--If cursed here, game over-->
+        You are now my pawn!
+        <br><br>
+        You are under control of the pink haired ballerina because of the enchanted cupcakes.
+        <br><br>
+
+        <h1>MISSION FAILED</h1>
+        <button class="btn" > <a href="dp2.html">Yes</a></button> <!--It all depends on this variable that takes 0 or 1, if 0, 2b next, else 3-->
+        <button class="btn" onclick="alert('Thanks for playing');"><a href="index.html">No</a></button><br>
+    </div>
+
+    <div id="5Barc2b" class= "Canv">
+        <strong>Greetings, Young Noble. </strong>
+        <!--not cursed, if information 1 not there, dead-->
+        <br> <br>
+        Give me one reason to spare your life.
+        
+        <br>
+        <button id="Next5Barc2b" class="nextbt">Next</button>
+    </div>
+
+
+    <div id="5Barc3a" class= "Canv">
+        You think about what queen said,
+        <!--not cursed, if information 1 not there, dead-->
+        about her sister being dead because of a love affair. <br>
+
+        <br>
+        You couldn't help thinking about that nostalgic feeling in your heart. A flashback of those good old sunny days in the sunflower fields appear before your eyes. You recall a tall figure with dark hair, your deceased elder brother... <br>
+        <br>
+        He is the reason you are here at the first place.
+        <br><br>
+        You spot a necklace on her, and know it instantly, whom her lover was.
+        <br> <br>
+        <i>Aerisianne</i> no wonder her name sounded familiar.
+        <br><br>
+        You look her squarely into the eyes and offer her revenge.
+        <br><br>
+
+        MISSION SUCCESSFUL! <br>
+        <button class="btn" onclick="alert('Thanks for playing');"><a href="index.html">HOME</a></button><br>
+    </div>
+
+    <div id="5Barc3b" class= "Canv">
+        <!--not cursed, if information 1 not there, dead-->
+        You are awestruck by her beauty that you hesitate.
+        <br>
+        <br>
+        She kills you.
+        <br><br>
+        <h1>MISSION FAILED!</h1><br>
+
+
+        <strong> Do you wish to Play again? </strong><br>
+
+        <button class="btn" > <a href="dp2.html">Yes</a></button> <!--It all depends on this variable that takes 0 or 1, if 0, 2b next, else 3-->
+        <button class="btn" onclick="alert('Thanks for playing');"><a href="index.html">No</a></button><br>
+    </div>
+
+    <div id="5Barc3c" class= "Canv">
+        You hesitate,
+        and she kills you.<br><br>
+
+        <h1>MISSION FAILED!</h1><br>
+        <br>
+        <strong> Do you wish to Play again? </strong> <br>
+        <button class="btn" > <a href="dp2.html">Yes</a></button> <!--It all depends on this variable that takes 0 or 1, if 0, 2b next, else 3-->
+        <button class="btn" onclick="alert('Thanks for playing');"><a href="index.html">No</a></button><br>
+    </div>
+
+
+    
+
+    </div>
+    
+
+
+
+
+    <script>
+        var resp1a;
+        var resp2a;
+        var resp2b=0.5;
+        var resp3a;
+
+
+        //document.getElementById("my").style.visibility = "hidden";
+        document.getElementById("1a").style.visibility = "hidden";
+
+        document.getElementById("2a").style.visibility = "hidden";
+        document.getElementById("2b").style.visibility = "hidden";
+        document.getElementById("3a").style.visibility = "hidden";
+        document.getElementById("3b").style.visibility = "hidden";
+        document.getElementById("4i").style.visibility = "hidden";
+
+       
+
+        document.getElementById("4ii").style.visibility = "hidden";
+        document.getElementById("5Aarc").style.visibility = "hidden";
+        document.getElementById("5Barc").style.visibility = "hidden";
+      
+
+        document.getElementById("2ai").style.visibility = "hidden";
+        document.getElementById("2bi").style.visibility = "hidden";
+        document.getElementById("4inc").style.visibility = "hidden";
+        document.getElementById("1ai").style.visibility = "hidden";
+    
+
+
+        document.getElementById("5Barc1").style.visibility = "hidden";
+        document.getElementById("5Barc2a").style.visibility = "hidden";
+        document.getElementById("5Barc2b").style.visibility = "hidden";
+
+        document.getElementById("5Barc3a").style.visibility = "hidden";
+        document.getElementById("5Barc3b").style.visibility = "hidden";
+        document.getElementById("5Barc3c").style.visibility = "hidden";
+
+
+        document.getElementById("Next0").onclick= function() {
+            document.getElementById("0").style.display= "none";
+            document.getElementById("1a").style.visibility = "visible";
+           
+            
+        }
+
+
+        document.getElementById("Next1").onclick= function() {
+            
+            if(resp1a==-1) {
+                document.getElementById("1a").style.display= "none";
+                document.getElementById("1ai").style.display= "none";
+                document.getElementById("2a").style.visibility = "visible";
+
+            }
+            
+            else if (resp1a==1) {
+                document.getElementById("1a").style.display= "none";
+                document.getElementById("1ai").style.visibility = "visible";
+
+            }
+
+            else {
+                alert("You must fill a choice");
+            }
+           
+        }
+
+        document.getElementById("Next2").onclick= function() {
+
+            if (resp2a==1) {
+                document.getElementById("2a").style.display= "none";
+                document.getElementById("2ai").style.visibility = "visible";
+            }
+            else if (resp2a==0){
+                document.getElementById("2a").style.display= "none";
+                document.getElementById("2b").style.display= "none";
+                document.getElementById("2ai").style.display= "none";
+                document.getElementById("2bi").style.display= "none";
+                document.getElementById("3a").style.visibility = "visible";
+            }
+            else {
+                alert("Select an option");
+            }
+            
+        }
+
+
+        
+        document.getElementById("Next2ai").onclick= function() {
+            document.getElementById("2ai").style.display= "none";
+            document.getElementById("2b").style.visibility = "visible";
+        }
+
+        document.getElementById("Next2bi").onclick= function() {
+            document.getElementById("2bi").style.display= "none";
+            document.getElementById("3a").style.visibility = "visible";
+        }
+
+
+
+
+
+        document.getElementById("Next2b").onclick= function() {
+
+            if (resp2b==1) {
+                document.getElementById("2b").style.display= "none";
+                document.getElementById("2bi").style.visibility = "visible";
+            }
+            else if (resp2b==0){
+                document.getElementById("2b").style.display= "none";
+                document.getElementById("2bi").style.display= "none";
+                document.getElementById("3a").style.visibility = "visible";
+            }
+            else {
+                alert("Select an option");
+            }
+            
+        }
+
+        document.getElementById("Next3a").onclick= function() {
+
+            if (resp3a ==-1 ) {
+
+                document.getElementById("3a").style.display= "none";
+                document.getElementById("3b").style.visibility = "visible";
+
+                console.log(resp2a);
+                console.log(resp2b);
+                console.log(resp1a);
+
+            }
+            else if (resp3a==0) {
+                document.getElementById("3a").style.display= "none";
+                document.getElementById("3b").style.display= "none";
+                document.getElementById("4i").style.display= "none";
+                document.getElementById("4inc").style.visibility = "visible";
+
+            }
+
+            else if(resp3a==1) {
+                document.getElementById("3a").style.display= "none";
+                document.getElementById("3b").style.display= "none";
+                document.getElementById("4i").style.visibility = "visible";
+
+            }
+
+            else {
+                alert("Select an option");
+            }
+            
+        }
+
+
+
+         document.getElementById("Next4i").onclick= function() {
+
+            document.getElementById("4i").style.display= "none";
+            document.getElementById("4inc").style.visibility = "visible";
+
+            }
+
+        document.getElementById("Next1ai").onclick= function() {
+
+            document.getElementById("1ai").style.display= "none";
+            document.getElementById("2a").style.visibility = "visible";
+
+            }
+
+
+        document.getElementById("Next4inc").onclick= function() {
+
+            document.getElementById("4inc").style.display= "none";
+            document.getElementById("4ii").style.visibility = "visible";
+
+            }
+
+
+        var trust_points;
+        document.getElementById("Next4ii").onclick= function() {
+
+            document.getElementById("4ii").style.display= "none";
+
+            trust_points= resp1a*(resp2a) - (resp2b);
+            if (trust_points>0) {
+                console.log(trust_points);
+                document.getElementById("5Aarc").style.visibility = "visible";
+
+            }
+
+            else {
+                console.log(trust_points);
+                document.getElementById("5Aarc").style.display= "none";
+                document.getElementById("5Barc").style.visibility = "visible";
+            }
+        }
+
+        document.getElementById("Next5Barc").onclick= function() {
+
+            document.getElementById("5Barc").style.display= "none";
+            document.getElementById("5Barc1").style.visibility = "visible";
+
+            }
+
+        document.getElementById("Next5Barc1").onclick= function() {
+
+            document.getElementById("5Barc1").style.display= "none";
+            
+            
+            
+            
+            
+
+            if(resp3a==1) {
+                document.getElementById("5Barc2a").style.visibility = "visible";
+
+            }
+            else {
+                document.getElementById("5Barc2b").style.visibility = "visible";
+                document.getElementById("5Barc2a").style.display= "none";
+            }
+
+        }
+        
+
+
+        document.getElementById("Next5Barc2b").onclick= function() {
+
+            document.getElementById("5Barc2b").style.display= "none";
+            if (resp2b==1) {
+                document.getElementById("5Barc3a").style.visibility = "visible";
+                
+            }
+
+            else if (resp2b==0 || resp2a==1) {
+                document.getElementById("5Barc3b").style.visibility = "visible";
+                document.getElementById("5Barc3a").style.display= "none";
+            }
+
+            else {
+                document.getElementById("5Barc3c").style.visibility = "visible";
+                document.getElementById("5Barc3a").style.display= "none";
+                document.getElementById("5Barc3b").style.display= "none";
+            }
+
+        }
+
+
+    </script>
+
+</body>
+</html>
